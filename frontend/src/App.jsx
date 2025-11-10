@@ -9,7 +9,7 @@ function App() {
   const endpoint = isLogin ? '/api/login' : '/api/signup';
 
   try {
-    const res = await fetch('https://your-backend.onrender.com' + endpoint, {
+    const res = await fetch('https://github-branch-rules.onrender.com' + endpoint, {
       method: 'POST',
       body: formData,
     });
